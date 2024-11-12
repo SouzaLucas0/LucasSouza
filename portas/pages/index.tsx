@@ -1,7 +1,7 @@
 
 import Porta from "../components/porta/Porta";
 import localFont from "next/font/local";
-import PortaModel from "../components/model/porta";
+import Model from "../components/model/porta";
 import { useState } from "react";
 
 const geistSans = localFont({
@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export default function Home() {
-const [p1, setP1] = useState(new PortaModel(1))
+const [p1, setP1] = useState(new Model(1))
 
   return (
     <div style={{display: 'flex'}}>
