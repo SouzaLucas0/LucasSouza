@@ -1,5 +1,7 @@
 @charset "utf8";
 
 .main{
-    
+    display: flex;
+    max-width: 1920px;
+    margin: auto;
 }

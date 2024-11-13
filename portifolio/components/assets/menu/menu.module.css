@@ -1,4 +1,4 @@
-.teste {
+.luzBluer {
     background-color: rgba(242, 74, 52, 0.5);
     height: 847px;
     width: 783px;
@@ -7,4 +7,23 @@
     left: 70%;
     border-radius: 100%;
     filter: blur(200px);
+}
+
+
+.logo {
+    width: auto;
+    height: 100%;
+}
+
+.menu__navBar {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    align-content: center;
+    text-transform: uppercase;
+}
+
+.menu__navBar li {
+    list-style: none;
+    font-size: 18px;
 }

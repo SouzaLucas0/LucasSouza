@@ -1,7 +1,11 @@
+import SectionHome from '../assets/sections/home/sectionHome'
+import SectionSocialMedias from '../assets/sections/socialMedias/SectionSocialMedias'
 import styles from './main.module.css'
 
 export default function() {
     return (
-        <div></div>
+        <main className={styles.main}>
+            <SectionHome />
+        </main>
     )
 }

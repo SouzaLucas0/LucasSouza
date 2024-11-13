@@ -18,11 +18,13 @@ const btnList = [
     }
 ]
     return (
-        <header className={styles.header}>            
-            <Menu 
-                logo= {logo}
-                botao= {btnList}
-            />
+        <header className={styles.header}>
+            <div className={styles.header__bar}>
+                <Menu
+                    logo= {logo}
+                    botao= {btnList}
+                />
+            </div>
         </header>
     )
 }
