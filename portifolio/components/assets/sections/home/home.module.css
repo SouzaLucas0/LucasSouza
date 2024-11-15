@@ -1,6 +1,7 @@
 @charset "utf8";
 
 .home {
+    z-index: 0;
     position: relative;
     display: flex;
     align-items: center;
@@ -10,20 +11,23 @@
     background-image: url('bgHome.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
 
-
+    /* Substituir pela seção de Contato e Mudar Resolução*/
     padding: 0 100px 0 100px;
+    /* Substituir pela seção de Contato e Mudar Resolução*/
 
 }
 
 .home__img {
-    width: 40vw;
+    z-index: 1;
+    width: min(35vw, 700px);
     height: auto;
 }
 
 .home__title {
-    margin-left: -5vw;  
+    z-index: 2;
+    margin-left: -4.5vw;
     text-wrap: nowrap;
     display: flex;
     flex-direction: column;
@@ -32,26 +36,27 @@
 }
 
 .home__title_h1 {
-    font-size: 7.187vw ;
+    font-size: min(7.187vw, 137px)  ;
     letter-spacing: 0.05em;
     font-weight: 700;
 }
 
 .home__title_h2 {
     margin-top: -15px;
-    font-size: 3.49vw;
+    font-size: min(3.49vw, 67px);
     letter-spacing: 0.218em;
     font-weight: 600;
+    padding-left: 2px;
 }
 
 .home__title_p{
-    font-size: 1.406vw;
+    font-size: min(1.406vw, 27px);
     font-weight: 500;
     letter-spacing: 0.06em;
 }
 
 .teste {
-    opacity: 15%;
+    opacity: 20%;
     left: 85%;
     position: absolute;
     width: 70%;

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import localFont from "next/font/local";
-import Header from "@/components/header/Header";
-import Main from "@/components/main/Main";
+import Header from "@/components/header/header";
+import Main from "@/components/main/main";
 import Footer from "@/components/footer/Footer";
 
 const geistSans = localFont({
@@ -20,7 +20,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className='principal'>
+        
         <Header/>
         <Main/>
         <Footer/>

@@ -1,4 +1,4 @@
-import Menu from '../assets/menu/Menu'
+import Menu from '../assets/menu/menu'
 import styles from './header.module.css'
 
 export default function Header(){
