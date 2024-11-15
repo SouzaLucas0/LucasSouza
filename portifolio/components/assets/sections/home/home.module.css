@@ -1,14 +1,61 @@
 @charset "utf8";
 
 .home {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     background-image: url('bgHome.jpg');
-    background-position: center;   
-    padding: 80px 0 0 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+
+
+    padding: 0 100px 0 100px;
+
 }
 
-.home__fotoPerfil {    
-    width: 35%;
-    
+.home__img {
+    width: 40vw;
+    height: auto;
+}
+
+.home__title {
+    margin-left: -5vw;  
+    text-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home__title_h1 {
+    font-size: 7.187vw ;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.home__title_h2 {
+    margin-top: -15px;
+    font-size: 3.49vw;
+    letter-spacing: 0.218em;
+    font-weight: 600;
+}
+
+.home__title_p{
+    font-size: 1.406vw;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+}
+
+.teste {
+    opacity: 15%;
+    left: 85%;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    filter: blur(6em);
 }

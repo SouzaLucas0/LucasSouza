@@ -4,8 +4,7 @@ import styles from './main.module.css'
 
 export default function() {
     return (
-        <main className={styles.main}>
-            
+        <main className={styles.main}>            
             <SectionHome />
         </main>
     )
