@@ -1,0 +1,8 @@
+@charset "utf8";
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.774);
+}

@@ -1,0 +1,18 @@
+.logo {
+    width: auto;
+    height: 100%;
+}
+
+.menu__navBar {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    align-content: center;
+    text-transform: uppercase;
+}
+
+.menu__navBar li {
+    list-style: none;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(255, 253, 253, 0.5);
+}
