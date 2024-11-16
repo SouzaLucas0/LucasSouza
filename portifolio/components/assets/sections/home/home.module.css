@@ -1,7 +1,7 @@
 @charset "utf8";
 
 .home {
-    z-index: 0;
+    z-index: 1;
     position: relative;
     display: flex;
     align-items: center;
@@ -21,13 +21,13 @@
 
 .home__img {
     z-index: 1;
-    width: min(35vw, 700px);
+    width: min(35vw, 600px);
     height: auto;
 }
 
 .home__title {
     z-index: 2;
-    margin-left: -4.5vw;
+    margin-left: -3.5vw;
     text-wrap: nowrap;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@
     letter-spacing: 0.06em;
 }
 
-.teste {
+.iluminacao {
     opacity: 20%;
     left: 85%;
     position: absolute;
