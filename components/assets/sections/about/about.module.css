@@ -8,7 +8,7 @@
     width: 100%;
     background-image: url('./bgAbout.jpg');
     background-size: cover;
-    padding: 10vh 0;
+    padding: 0 0 8em 0;
 }
 
 .aboutContent {
@@ -35,10 +35,14 @@
     font-weight: 700;
 }
 
-.aboutContent__skillCardes {
-    padding: 3em 0;
+.aboutContent__skillCards {
+    width: 100%;
     display: flex;
-    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3em 0;
+    gap: 2em;
 }
 
 .iluminacao {

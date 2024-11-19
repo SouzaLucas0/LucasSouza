@@ -1,0 +1,30 @@
+.projects{    
+    width: 100%;
+    background-image: url('./projeosSection.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects__bgModifier {
+    width: auto;
+    height: 100%;
+}
+
+.projects__list {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1920px;
+    padding: 0 2em 0 2em;
+}
+
+.projectList__title {
+    font-size: min(3.333vw, 64px);
+    color: #1b1b1b;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+    padding: 2em;
+}

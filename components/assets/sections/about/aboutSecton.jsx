@@ -54,7 +54,7 @@ export default function SectionAbout (props) {
                     style={{color: colorProject, textShadow: colorShadow}}
                 >Conhecimentos</h4>
 
-                <div className={styles.aboutContent__skillCardes}>
+                <div className={styles.aboutContent__skillCards}>
                     <GlasCard
                         cards = {cardList}
                         color={colorProject}
