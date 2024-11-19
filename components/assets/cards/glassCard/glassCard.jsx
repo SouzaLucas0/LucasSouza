@@ -4,7 +4,7 @@ import styles from './glassCard.module.css'
 export default function GlassCard (props) {
     const cardList = props.cards
     const colorProject = props.color ? props.color : '#34D6F2'
-    const colorGlassReflect = 'inset 0 -13px 20px ' + hexToRGBASimple(colorProject, '0.5')
+    const colorGlassReflect = 'inset 0 -13px 20px ' + hexToRGBASimple(colorProject, '0.6')
     const dropShadow = 'drop-shadow('+hexToRGBA(colorProject, '0.2')
     const colorShadow = hexToRGBA(colorProject, '0.3', '10px')
 

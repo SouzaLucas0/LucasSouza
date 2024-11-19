@@ -42,15 +42,15 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 3em 0;
-    gap: 2em;
+    gap: 1.5em;
 }
 
 .iluminacao {
     position: absolute;
     top: 20%;
-    opacity: 10%;
+    opacity: 30%;
     width: 50%;
-    height: 60%;
+    height: 50%;
     border-radius: 100%;
-    filter: blur(6em);
+    filter: blur(7em);
 }
