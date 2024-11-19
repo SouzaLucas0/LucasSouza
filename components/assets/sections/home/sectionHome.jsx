@@ -6,7 +6,7 @@ import styles from './home.module.css'
 export default function SectionHome (props) {
     const colorProject = props.color ? props.color : '#34D6F2'
     const colorShadow = hexToRGBA(colorProject, '0.6', '12px')
-    const dropShadow = 'drop-shadow('+hexToRGBA(colorProject, '0.2')+')'
+    const dropShadow = 'drop-shadow('+hexToRGBA(colorProject, '0.5', '12px')+')'
 
     return (        
         <section id='home' className={styles.home}>
