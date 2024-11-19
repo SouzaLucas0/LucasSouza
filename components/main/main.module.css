@@ -8,8 +8,17 @@
 }
 
 .colorSelect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    transform: rotate(90deg);
     position: fixed;
     z-index: 10;
-    left: 95%;
-    top: 100px;
+    left: 94%;
+    top: 50%;
+}
+
+.colorSelect input {
+    width: 80px;
 }

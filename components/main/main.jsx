@@ -20,7 +20,8 @@ const [decorationColor, setDecorationColor] = useState('#34D6F2')
                     type="color"
                     value={decorationColor}
                     onChange={ event => setDecorationColor(event.target.value)}
-                />
+                    />
+                <p>Altere a cor do projeto</p>
             </div>
             <SectionHome color={decorationColor} />
             <SectionAbout color={decorationColor} />
