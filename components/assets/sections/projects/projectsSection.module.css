@@ -1,8 +1,7 @@
 .projects{    
     width: 100%;
-    background-image: url('./projeosSection.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('./projeosSection.jpg');    
+    background-size: contain;
 }
 
 .projects__bgModifier {

@@ -15,14 +15,17 @@ const [decorationColor, setDecorationColor] = useState('#34D6F2')
 
     return (
         <main className={styles.main}>
-            <div className={styles.colorSelect}>
-                <input 
-                    type="color"
-                    value={decorationColor}
-                    onChange={ event => setDecorationColor(event.target.value)}
-                    />
-                <p>Altere a cor do projeto</p>
+            <div className={styles.sideBar}>
             </div>
+                <div className={styles.colorSelect}>
+                    <input
+                        className={styles.input}
+                        type="color"
+                        value={decorationColor}
+                        onChange={ event => setDecorationColor(event.target.value)}
+                        />
+                    <p>Altere a cor do projeto</p>
+                </div>
             <SectionHome color={decorationColor} />
             <SectionAbout color={decorationColor} />
             <SectionProjects color={decorationColor}/>
