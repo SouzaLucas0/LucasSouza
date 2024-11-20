@@ -5,7 +5,7 @@ import SectionProjects from '../assets/sections/projects/projectsSection'
 import styles from './main.module.css'
 
 export default function() {
-const [decorationColor, setDecorationColor] = useState('#34D6F2')
+const [decorationColor, setDecorationColor] = useState('#00d9ff')
 
 
 /*cor original #34D6F2*/
