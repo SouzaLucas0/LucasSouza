@@ -6,7 +6,7 @@ const logo = 'https://media.licdn.com/dms/image/v2/D4D03AQFw6X0VOHVQCQ/profile-d
 const btnList = [
     {
         nome: "Sobre",
-        link: "#sobre"
+        link: "#about"
     },
     {
         nome: "Projetos",
