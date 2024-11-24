@@ -3,6 +3,7 @@ import SectionAbout from '../assets/sections/about/aboutSecton'
 import SectionHome from '../assets/sections/home/sectionHome'
 import SectionProjects from '../assets/sections/projects/projectsSection'
 import styles from './main.module.css'
+import SectionContact from '../assets/sections/contact/contactSection'
 
 export default function() {
 const [decorationColor, setDecorationColor] = useState('#00d9ff')
@@ -15,8 +16,7 @@ const [decorationColor, setDecorationColor] = useState('#00d9ff')
 
     return (
         <main className={styles.main}>
-            <div className={styles.sideBar}>
-            </div>
+            <div className={styles.sideBar}>            
                 <div className={styles.colorSelect}>
                     <input
                         className={styles.input}
@@ -26,9 +26,12 @@ const [decorationColor, setDecorationColor] = useState('#00d9ff')
                         />
                     <p>Altere a cor do projeto</p>
                 </div>
+            </div>
             <SectionHome color={decorationColor} />
             <SectionAbout color={decorationColor} />
             <SectionProjects color={decorationColor}/>
+            <SectionContact color={decorationColor} />
+
         </main>
     )
 

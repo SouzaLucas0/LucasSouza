@@ -23,18 +23,18 @@
     font-weight: 700;
 }
 
-.aboutContent__text {
-    font-size: 27px;
-    text-align: center;
-    font-weight: 500;
-    padding: 3em 4em;
-}
 
 .aboutContent__subTite {
     font-size: min(5.333vw, 40px);
     font-weight: 700;
 }
 
+.aboutContent__text {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 500;
+    padding: 3em 4em;
+}
 .aboutContent__skillCards {
     width: 100%;
     display: flex;

@@ -1,12 +1,14 @@
 .projects{    
     width: 100%;
     background-image: url('./projeosSection.jpg');    
-    background-size: contain;
+    background-size: contain;    
+    
 }
 
 .projects__bgModifier {
     width: auto;
     height: 100%;
+    padding-bottom: 4em;
 }
 
 .projects__list {
@@ -25,5 +27,5 @@
     text-align: center;
     font-weight: 700;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
-    padding: 2em;
+    padding: 1.7em 0;
 }
