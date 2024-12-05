@@ -19,6 +19,7 @@ export default function SectionHome (props) {
                 <Image              
                     src={Foto}
                     layout='responsive'
+                    alt='Foto de perfil'
                 />                
             </div>
             <div className={styles.home__title} >

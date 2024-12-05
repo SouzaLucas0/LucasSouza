@@ -1,0 +1,23 @@
+.socials {
+    font-size: 72px;
+}
+
+.socialsColorful.whatsapp {
+    color: #00BB2D;
+    filter: drop-shadow(0 0 15px #00BB2D);
+}
+
+.socialsColorful.github {
+    color: #ffffff;
+    filter: drop-shadow(0 0 15px #ffffff);
+}
+
+.socialsColorful.instagram {
+    color: #FF00EE;
+    filter: drop-shadow(0 0 15px #FF00EE);
+}
+
+.socialsColorful.linkedin {
+    color: #0072B1;
+    filter: drop-shadow(0 0 15px #0072B1);
+}

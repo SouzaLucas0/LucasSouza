@@ -5,7 +5,7 @@ import SectionProjects from '../assets/sections/projects/projectsSection'
 import styles from './main.module.css'
 import SectionContact from '../assets/sections/contact/contactSection'
 
-export default function() {
+export default function Main() {
 const [decorationColor, setDecorationColor] = useState('#00d9ff')
 
 
@@ -31,7 +31,6 @@ const [decorationColor, setDecorationColor] = useState('#00d9ff')
             <SectionAbout color={decorationColor} />
             <SectionProjects color={decorationColor}/>
             <SectionContact color={decorationColor} />
-
         </main>
     )
 

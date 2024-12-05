@@ -1,10 +1,11 @@
-.contact {
+.contact {    
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6em 0;
-    background-image: url('./bgContact.jpg');
+    padding: 6em 0 10em 0;
+    background-image: url('./bgContact.jpg');    
 }
 
 .contact__title {
@@ -15,9 +16,35 @@
 .contact__subTitle {
     font-size: min(5.333vw, 40px);
     font-weight: 300;
+    padding: 1em 0;
+}
+
+.contact__text {
+    font-size: 18.6px;
+    text-align: center;
 }
 
 .contact__container {
     display: flex;
+    gap: 1.5em;
     max-width: 1024px;
+    margin-top: 1.5em;
+}
+.contact__socials {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.iluminacao {
+    opacity: 30%;
+    right: 90%;
+    position: absolute;
+    width: 70%;
+    height: 87%;
+    border-radius: 100%;
+    filter: blur(6em);
 }

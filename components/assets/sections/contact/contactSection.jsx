@@ -1,4 +1,5 @@
 import Form from '../../cards/form/form'
+import SocialsCard from '../../cards/socials/socialsCard'
 import { hexToRGBA } from '../../functions/hexToRGBA'
 import styles from './contact.module.css'
 
@@ -22,6 +23,7 @@ export default function SectionContact (props) {
             <div className={styles.contact__container}>
                 <Form color={colorProject}/>
                 <div className={styles.contact__socials}>
+                    <SocialsCard fontSize='7em' colorful/>
                     <p className={styles.contact__text}
                         style={{color: colorProject,
                             textShadow: colorShadow
@@ -29,6 +31,13 @@ export default function SectionContact (props) {
                     >Clique na rede social que seja contatar
                     </p>
                 </div>
+            </div>
+            <div
+                className={styles.iluminacao}
+                style={{
+                    backgroundColor: colorProject
+                }}
+            >
             </div>
         </section>
     )
