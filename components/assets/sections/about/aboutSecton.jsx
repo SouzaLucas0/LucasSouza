@@ -12,7 +12,7 @@ import styles from './about.module.css'
 /*CSS3 = <FaCss3Alt />     */
 /*JS = <FaJsSquare />      */
 /*ReactJS = <FaReact />    */
-/*NextJS = <RiNextjsFill/>*/
+/*NextJS = <RiNextjsFill/> */
 
 export default function SectionAbout (props) {
     const colorProject = props.color ? props.color : '#34D6F2'
@@ -48,7 +48,7 @@ export default function SectionAbout (props) {
                     style={{color: colorProject, textShadow: colorShadow}}
                 >Sobre mim</h3>
 
-                <p className={styles.aboutContent__text}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.</p>
+                <p className={styles.aboutContent__text}>Formado em Sistemas de Informação e buscando consolidar primeiramente carreira em Desenvolvimento Front-End com especialidade em ReactJS. Posteriormente pretendendo adquirir conhecimentos em Back-End, a fim de trilhar a carreira de desenvolvedor Full Stack..</p>
 
                 <h4 className={styles.aboutContent__subTite}
                     style={{color: colorProject, textShadow: colorShadow}}

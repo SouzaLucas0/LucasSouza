@@ -16,7 +16,7 @@
 
 .home__img {
     z-index: 1;
-    width: min(35vw, 600px);
+    width: min(40vw, 550px);
     height: auto;
 }
 

@@ -4,6 +4,7 @@ import SectionHome from '../assets/sections/home/sectionHome'
 import SectionProjects from '../assets/sections/projects/projectsSection'
 import styles from './main.module.css'
 import SectionContact from '../assets/sections/contact/contactSection'
+import SocialsCard from '../assets/cards/socials/socialsCard'
 
 export default function Main() {
 const [decorationColor, setDecorationColor] = useState('#00d9ff')
@@ -15,21 +16,22 @@ const [decorationColor, setDecorationColor] = useState('#00d9ff')
  to convert hex color to rgba for dynamic shadows*/
 
     return (
-        <main className={styles.main}>
-            <div className={styles.sideBar}>            
-                <div className={styles.colorSelect}>
-                    <input
-                        className={styles.input}
-                        type="color"
-                        value={decorationColor}
-                        onChange={ event => setDecorationColor(event.target.value)}
-                        />
-                    <p>Altere a cor do projeto</p>
+        <main className={styles.main}>          
+                <div className={styles.sideBar}>            
+                    <div className={styles.colorSelect}>
+                        <input
+                            className={styles.input}
+                            type="color"
+                            value={decorationColor}
+                            onChange={ event => setDecorationColor(event.target.value)}
+                            />
+                        <p>Altere a cor do projeto</p>
+                    </div>
                 </div>
-            </div>
+           
             <SectionHome color={decorationColor} />
             <SectionAbout color={decorationColor} />
-            <SectionProjects color={decorationColor}/>
+            <SectionProjects color={decorationColor} />
             <SectionContact color={decorationColor} />
         </main>
     )

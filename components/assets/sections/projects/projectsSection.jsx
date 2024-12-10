@@ -4,21 +4,21 @@ import styles from './projectsSection.module.css'
 
 export default function SectionProjects (props) {
     const projectList = [{
-        title: 'RealStore',
-        link: 'https://real-store-ahas9vhu0-souzalucas0.vercel.app/',
-        img: './img/bgReralStore.png'
-        },{
             title: 'RealStore',
             link: 'https://real-store-ahas9vhu0-souzalucas0.vercel.app/',
             img: './img/bgReralStore.png'
         },{
-            title: 'RealStore',
-            link: 'https://real-store-ahas9vhu0-souzalucas0.vercel.app/',
-            img: './img/bgReralStore.png'
+            title: 'Organo',
+            link: 'https://organo-pi-seven.vercel.app/',
+            img: './img/organo.png'
         },{
-            title: 'RealStore',
-            link: 'https://real-store-ahas9vhu0-souzalucas0.vercel.app/',
-            img: './img/bgReralStore.png'
+            title: 'Olá, Mundo',
+            link: 'https://react-router-209f8q3aw-souzalucas0.vercel.app/',
+            img: './img/olamundo.png'
+        },{
+            title: 'Orgs',
+            link: 'https://react-context-i03svyim0-souzalucas0.vercel.app/',
+            img: './img/orgs.png'
         }
     ]
     const colorProject = hexToRGBASimple(props.color, '0.7')

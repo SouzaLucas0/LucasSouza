@@ -1,6 +1,6 @@
 .logo {
     width: auto;
-    height: 110%;
+    height: 100%;
     filter: drop-shadow(0 0 2px white);
 }
 
@@ -14,6 +14,6 @@
 
 .menu__navBar li {
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 0 0 10px rgba(255, 253, 253, 0.5);
 }

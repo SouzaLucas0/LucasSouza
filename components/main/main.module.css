@@ -8,21 +8,21 @@
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.774);
 }
 
-.colorSelect{
+.colorSelect{    
     position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 200px;
     transform: rotate(-90deg);
     z-index: 10;
-    right: -75px;
-    top: 50%;
+    right: -14px;
     font-size: 12px;
+
 }
 
-.input {    
+.input {
     width: 60px;
     height: 25px;
     cursor: pointer;
@@ -33,9 +33,22 @@
 .sideBar {
     z-index: 2;
     position:fixed;
-    background-color: rgba(0, 0, 0, 0.205);
-    width: 55px;
-    height: 100vh;
-    right: 0;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;  
+    background-color: rgba(255, 255, 255, 0.03);    
+    backdrop-filter: blur(3px);
+    border-radius: 50%;
+    width: 110px;
+    height: 50vh;
+    right: -62px;
+    top: 50%;
+    transform: translate(0, -50%);
+    box-shadow: 0 0 15px rgba(46, 46, 46, 0.753);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+}
+
+.sideBar:hover {
+    right: -50px;
+    box-shadow: -15px 0 15px rgba(46, 46, 46, 0.453);
 }
