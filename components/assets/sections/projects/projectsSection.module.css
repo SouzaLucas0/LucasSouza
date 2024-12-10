@@ -13,11 +13,11 @@
 .projects__list {
     display: flex;
     justify-content: center;
-    gap: 6em;
+    gap: 3.5em;
     flex-wrap: wrap;
     margin: auto;
     max-width: 1920px;
-    padding: 0 2em 0 2em;
+    padding: 2em 3em;
 }
 
 .projectList__title {
