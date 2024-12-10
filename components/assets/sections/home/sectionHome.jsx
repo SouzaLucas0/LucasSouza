@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Foto from '../../../../public/img/perfil.png'
+import Foto from '/public/img/perfil.png'
 import { hexToRGBA } from '../../functions/hexToRGBA'
 import styles from './home.module.css'
 
