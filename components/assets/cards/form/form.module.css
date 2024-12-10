@@ -40,11 +40,12 @@
 }
 
 .form__button {
-   width: 180px;
-   height: 35px;
-   border-radius: 10px;
-   border: none;
-   color: black;
-   font-size: 22px;
-   font-weight: 400;
+    cursor: pointer;
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
 }

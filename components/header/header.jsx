@@ -10,11 +10,11 @@ const btnList = [
     },
     {
         nome: "Projetos",
-        link: "#projetos"
+        link: "#projects"
     },
     {
         nome: "Contato",
-        link: "#contato"
+        link: "#contact"
     }
 ]
     return (

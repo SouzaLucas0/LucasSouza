@@ -42,7 +42,7 @@ export default function SectionAbout (props) {
     ]
 
         return (
-        <section className={styles.about}>
+        <section id="about" className={styles.about}>
             <div className={styles.aboutContent}>                
                 <h3 className={styles.aboutContent__tile}
                     style={{color: colorProject, textShadow: colorShadow}}

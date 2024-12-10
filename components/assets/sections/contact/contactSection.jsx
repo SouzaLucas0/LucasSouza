@@ -8,7 +8,7 @@ export default function SectionContact (props) {
     const colorShadow = hexToRGBA(colorProject, '0.6')
 
     return (
-        <section className={styles.contact}>
+        <section id='contact' className={styles.contact}>
             <h4 className={styles.contact__title}
                 style={{color: colorProject,
                         textShadow: colorShadow

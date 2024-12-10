@@ -8,7 +8,7 @@
     width: 100%;
     background-image: url('./bgAbout.jpg');
     background-size: cover;
-    padding: 0 0 8em 0;
+    padding: 5em 0 8em 0;
 }
 
 .aboutContent {

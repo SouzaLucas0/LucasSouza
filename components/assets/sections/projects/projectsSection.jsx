@@ -24,7 +24,7 @@ export default function SectionProjects (props) {
     const colorProject = hexToRGBASimple(props.color, '0.7')
 
     return (
-        <section className={styles.projects}>
+        <section id='projects' className={styles.projects}>
             <div className={styles.projects__bgModifier}
                 style={{backgroundColor: colorProject}}
             >

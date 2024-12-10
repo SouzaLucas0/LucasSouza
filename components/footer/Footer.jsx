@@ -5,16 +5,16 @@ export default function Footer() {
     const logo = 'https://media.licdn.com/dms/image/v2/D4D03AQFw6X0VOHVQCQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727109077881?e=1736985600&v=beta&t=5MRfxeHtBH_HBpj_p77DsKtSMVZxPAR1g04c9aMblDs'
     const btnList = [
     {
-        nome: "Sobre",
-        link: "#about"
+        nome: "Home",
+        link: "#home"
     },
     {
         nome: "Projetos",
-        link: "#projetos"
+        link: "#projects"
     },
     {
-        nome: "Contato",
-        link: "#contato"
+        nome: "Sobre",
+        link: "#about"
     }
 ]
 
@@ -25,6 +25,9 @@ export default function Footer() {
                     logo= {logo}
                     botao= {btnList}
                 />
+                <a className={styles.footer__link} href="https://www.linkedin.com/in/souzalucas0/" target="_blank">
+                Desenvolvido por <strong>Lucas Souza</strong>
+                </a>
             </div>
         </footer>
     )
