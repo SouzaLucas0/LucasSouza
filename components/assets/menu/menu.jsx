@@ -12,12 +12,19 @@ export default function Menu (props) {
                 src={logo}
                 alt="logo do site"
                 className={styles.logo}                
-            />   
+            />
             
             <div className={styles.menu__navBar}>
                 {btnList.map((btn, index)=>{
                     return <li key={index}><a href={btn.link}>{btn.nome}</a></li>
                 })}
+            </div>
+
+            <div className={styles.menu__navBarMobile}>
+                <div className={styles.menu__mobileIcon}>
+                        sadfas
+                    
+                </div>
             </div>
         </>   
     )

@@ -48,9 +48,10 @@
 .iluminacao {
     position: absolute;
     top: 20%;
-    opacity: 30%;
+    opacity: 28%;
     width: 60%;
     height: 50%;
     border-radius: 100%;
-    filter: blur(7em);
+    filter: blur(6em);
+    z-index: -1;
 }

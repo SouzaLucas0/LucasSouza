@@ -1,0 +1,38 @@
+home {
+	height: 70vh;	
+}
+
+sobre {
+	padding: 1em 1em
+	
+	text {
+		padding: 3em 1em;
+	}
+	glasscard1 {
+		width: min(22.117vw, 206px);
+		height: min(26.948vw, 267px);
+	}
+	about_aboutContent__skillCards {
+		padding: 3em 1em;
+	}
+	glassCard__title {
+		font-size: 27px;
+	}
+}
+contato {
+	contact_contact__subTitle {
+		font-size: 24px;
+	}
+	
+	contact_contact__container {
+		flex-direction: column;
+	}
+	
+	form_form {
+		justify-content: center;
+	}
+	
+	contact_contact__socials {
+		width: 100%;
+	}
+}

@@ -17,3 +17,28 @@
     font-size: 18px;
     text-shadow: 0 0 10px rgba(255, 253, 253, 0.5);
 }
+
+.menu__navBarMobile {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .menu__navBar {
+        display: none;
+    }
+
+    .menu__navBarMobile {
+        display: block;
+    }
+
+    .menu__mobileIcon,
+    .menu__mobileIcon::before,
+    .menu__mobileIcon::after {
+        content: "";
+        width: 28px;
+        height: 2px;
+        background-color: #ffffff;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+}
