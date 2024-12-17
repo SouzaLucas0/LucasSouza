@@ -15,3 +15,15 @@
     justify-content: space-between;
     padding: .5rem 2rem;
 }
+
+.menu__navBarMobile {
+    display: none;
+}
+
+@media (max-width: 769px) {
+
+    .header__bar{
+        align-items: center;
+    }
+   
+}

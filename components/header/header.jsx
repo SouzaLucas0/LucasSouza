@@ -24,7 +24,7 @@ const btnList = [
                     logo= {logo}
                     botao= {btnList}
                 />
-            </div>
+            </div>            
         </header>
     )
 }

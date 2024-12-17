@@ -10,6 +10,7 @@
     align-items: center;
     align-content: center;
     text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .menu__navBar li {
@@ -23,22 +24,44 @@
 }
 
 @media (max-width: 769px) {
-    .menu__navBar {
-        display: none;
+    .menu__navBar{
+        z-index: -1;
+        position: absolute;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        top: 80px;
+        height: 80px;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 15px 10px rgba(0, 0, 0, 0.205);
+    }
+    .open {
+        left: 0px;
+    }
+
+    .close {
+        left: 100vh;        
     }
 
     .menu__navBarMobile {
         display: block;
     }
 
-    .menu__mobileIcon,
-    .menu__mobileIcon::before,
-    .menu__mobileIcon::after {
-        content: "";
-        width: 28px;
-        height: 2px;
-        background-color: #ffffff;
-        transition: transform 0.3s, opacity 0.3s;
+    .hamburger {
+        border: none;
+        background: none;
+        border-top: 4px solid #fff;
+        cursor: pointer;
     }
 
+    .hamburger::before,
+    .hamburger::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 4px;
+        background: #fff;
+        margin-top: 8px;
+    }
 }
