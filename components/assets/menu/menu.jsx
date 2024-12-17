@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function Menu (props) {
     
     const btnList = props.botao
-    const [menuOpen, setOpen] = useState(true)
+    const [menuOpen, setOpen] = useState(false)
     return(
          <>
             <Image
