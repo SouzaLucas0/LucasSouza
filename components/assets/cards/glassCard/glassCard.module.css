@@ -1,8 +1,8 @@
 .glassCard1 {
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    width: min(17.117vw, 206px);
-    height: min(23.948vw, 267px);
+    width: min(25vw, 206px);
+    height: min(28vw, 247px);
     box-shadow: inset 0 5px 10px rgba(255, 255, 255, 0.4);
 }
 

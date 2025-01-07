@@ -10,6 +10,7 @@
 }
 
 .form__glass {
+    height: 323px;
     border-radius: 25px;
     box-shadow: inset 5px 0 10px rgba(255, 255, 255, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.2);

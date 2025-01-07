@@ -50,3 +50,22 @@
     border-radius: 100%;
     filter: blur(6em);
 }
+
+
+
+@media (max-width: 1025px) {
+    .contact__container {
+        flex-direction: column;
+        max-width: 768px;
+        padding: 0 2.3em;
+    }
+
+    .contact__socials {
+        padding-top: 1em;
+        width: 100%;
+    }
+
+    .contact__text {
+        width: 100%;
+    }
+}
