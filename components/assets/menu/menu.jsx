@@ -7,6 +7,9 @@ export default function Menu (props) {
     
     const btnList = props.botao
     const [menuOpen, setOpen] = useState(false)
+    const [menuOpenFooter, setOpenFooter] = useState(false)    
+    const isFooter = props.isFooter
+
     return(
          <>
             <Image
@@ -15,7 +18,9 @@ export default function Menu (props) {
                 className={styles.logo}
             />
             
-            <div className={`${styles.menu__navBar} ${menuOpen ? styles.open : styles.close }`}>
+            <div className={`${styles.menu__navBar} ${menuOpen ? styles.open : styles.close}`}
+                style={isFooter? {top: '-80px'} : {top: '80px'}}
+            >
                 {btnList.map((btn, index)=>{
                     return <li key={index}><a href={btn.link}>{btn.nome}</a></li>
                 })}
@@ -33,6 +38,7 @@ export default function Menu (props) {
     )
 
     function openMenu() {
+        
         if (menuOpen) {
             setOpen(false)
         } else {

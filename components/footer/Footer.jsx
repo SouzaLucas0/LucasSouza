@@ -22,6 +22,7 @@ export default function Footer() {
         <footer className={styles.footer}>
              <div className={styles.footer__bar}>
                 <Menu
+                    isFooter
                     logo= {logo}
                     botao= {btnList}
                 />

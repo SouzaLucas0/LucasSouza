@@ -20,10 +20,16 @@
     display: none;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1025px) {
 
     .header__bar{
         align-items: center;
     }
    
+}
+
+@media (max-width: 769px) {
+    .header {
+        height: 60px
+    }
 }
