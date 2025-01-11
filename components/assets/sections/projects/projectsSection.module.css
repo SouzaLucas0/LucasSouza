@@ -28,3 +28,9 @@
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
     padding: 1.7em 0;
 }
+
+@media (max-width: 425px) {
+        .projects__list {
+            padding: 2em 1em;
+        }
+}

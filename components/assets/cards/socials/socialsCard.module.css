@@ -1,5 +1,5 @@
 .socials {
-    font-size: 72px;
+    font-size: 6.5em;
 }
 
 .socialsColorful.whatsapp {
@@ -20,4 +20,16 @@
 .socialsColorful.linkedin {
     color: #0072B1;
     filter: drop-shadow(0 0 15px #0072B1);
+}
+
+@media (max-width: 769px) {
+    .socials {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .socials {
+        font-size: 3rem;
+    }
 }

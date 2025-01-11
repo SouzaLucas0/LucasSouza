@@ -24,3 +24,10 @@
     font-weight: 700;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
+
+@media (max-width: 769px) {
+    .projectCard__item {
+        width: min(85vw,571px) ;
+        height: min(55.365vw,363px) ;
+    }
+}

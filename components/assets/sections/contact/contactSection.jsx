@@ -23,7 +23,7 @@ export default function SectionContact (props) {
             <div className={styles.contact__container}>
                 <Form color={colorProject}/>
                 <div className={styles.contact__socials}>
-                    <SocialsCard fontSize='6.5em' colorful/>
+                    <SocialsCard colorful/>
                     <p className={styles.contact__text}
                         style={{color: colorProject,
                             textShadow: colorShadow

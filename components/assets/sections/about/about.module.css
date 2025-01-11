@@ -60,4 +60,27 @@
     .about {
         padding: 0 0 8em 0;
     }
+
+    .aboutContent__tile {
+        font-size: min(7.333vw, 64px);
+    }
+
+    .aboutContent__text {
+        font-size: 22px;
+        padding: 3em .5em;
+    }
+}
+
+@media (max-width:425px) {
+    .aboutContent__text {
+        font-size: 18px;
+    }
+
+    .aboutContent__skillCards {
+        padding: 1.5em;
+    }
+
+    .about {
+        padding: 0 0 2em 0;
+    }
 }

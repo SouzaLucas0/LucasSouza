@@ -67,14 +67,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .home {
         height: 100%;
         padding: 8em 0;
+        flex-direction: column;
     }
 
-    .home {
-        flex-direction: column;
+    .home__img {
+        width: min(40vw, 250px);
     }
     
     .home__title {
@@ -82,22 +83,16 @@
     }
 
     .home__title_h1 {
-        font-size: min(10vw, 137px);
+        font-size: min(12vw, 137px);
     }
 
     .home__title_h2 {
         margin: 0;
-        font-size: min(4.8vw, 67px);
+        font-size: min(5.9vw, 67px);
     }
 
     .home__title_p {
         font-size: min(3.406vw, 20px);
         text-wrap: wrap;
-    }
-}
-
-@media (max-width: 425px) {
-    .home {
-        padding: 6em 0;
     }
 }

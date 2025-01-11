@@ -31,3 +31,31 @@
     display: flex;
     font-size: 9em;
 }
+
+@media (max-width: 769px) {
+    .glassCard1 .glassCard2 {
+        border-radius: 25px;
+    }
+    .glassCard__title {
+        font-size: min(4vw, 28px);
+    }
+
+    .glassCard__icon {
+        font-size: min(18vw, 140px);
+    }
+}
+
+@media (max-width: 425px) {
+    .glassCard1 {
+        width: min(30vw, 206px);
+        height: min(34vw, 247px);
+    }
+
+    .glassCard__title {
+        font-size: min(4.8vw, 28px);
+    }
+
+    .glassCard__icon {
+        font-size: min(20vw, 140px);
+    }
+}

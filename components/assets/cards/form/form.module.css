@@ -50,3 +50,13 @@
     font-size: 22px;
     font-weight: 400;
 }
+
+@media (max-width: 425px) {
+    .form__container {
+        flex-direction: column;
+    }
+
+    .form__glass {
+        height: 401px;
+    }
+}
