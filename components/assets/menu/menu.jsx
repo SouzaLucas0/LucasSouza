@@ -19,7 +19,7 @@ export default function Menu (props) {
             />
             
             <div className={`${styles.menu__navBar} ${menuOpen ? styles.open : styles.close}`}
-                style={isFooter? {top: '-80px'} : {top: '80px'}}
+                style={isFooter? {top: '-60px'} : {top: '60px'}}
             >
                 {btnList.map((btn, index)=>{
                     return <li key={index}><a href={btn.link}>{btn.nome}</a></li>
