@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
     return (
         projecList.map((projec, index) => {
             return (
-                <li key={index} className={styles.projectCard__item}
+                <li data-aos="zoom-in" key={index} className={styles.projectCard__item}
                     style={{backgroundImage: `url(${projec.img}`}}>
                     <a href={projec.link} target='_blank' className={styles.projectCard__link}>                        
                     </a>

@@ -13,7 +13,7 @@ export default function Form (props) {
     const [message, setMessage] = useState('')
 
     return (
-        <div className={styles.form__glass}>
+        <div data-aos="fade-up" className={styles.form__glass}>
             <form
                 className={styles.form}
                 style={{boxShadow: colorGlassReflect}}

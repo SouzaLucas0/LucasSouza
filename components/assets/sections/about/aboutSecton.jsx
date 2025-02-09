@@ -2,7 +2,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { hexToRGBA } from "../../functions/hexToRGBA";
 import GlasCard from '../../cards/glassCard/glassCard';
 import styles from './about.module.css'
@@ -38,30 +38,34 @@ export default function SectionAbout (props) {
         {
             title: 'NextJS',
             icon: <RiNextjsFill/>
+        },
+        {
+            title: 'Tailwind',
+            icon: <RiTailwindCssFill />
         }
     ]
 
         return (
         <section id="about" className={styles.about}>
-            <div className={styles.aboutContent}>                
-                <h3 className={styles.aboutContent__tile}
+            <div data-aos="fade-up" className={styles.aboutContent}>                
+                <h3 data-aos="fade-up" className={styles.aboutContent__tile}
                     style={{color: colorProject, textShadow: colorShadow}}
                 >Sobre mim</h3>
 
-                <p className={styles.aboutContent__text}>Formado em Sistemas de Informação e buscando consolidar primeiramente carreira em Desenvolvimento Front-End com especialidade em ReactJS. Posteriormente pretendendo adquirir conhecimentos em Back-End, a fim de trilhar a carreira de desenvolvedor Full Stack..</p>
+                <p data-aos="fade-up" className={styles.aboutContent__text}>Formado em Sistemas de Informação e buscando consolidar primeiramente carreira em Desenvolvimento Front-End com especialidade em ReactJS. Posteriormente pretendendo adquirir conhecimentos em Back-End, a fim de trilhar a carreira de desenvolvedor Full Stack.</p>
 
-                <h4 className={styles.aboutContent__subTite}
+                <h4 data-aos="fade-up" className={styles.aboutContent__subTite}
                     style={{color: colorProject, textShadow: colorShadow}}
                 >Conhecimentos</h4>
 
-                <div className={styles.aboutContent__skillCards}>
+                <div data-aos="fade-up" className={styles.aboutContent__skillCards}>
                     <GlasCard
                         cards = {cardList}
                         color={colorProject}
                     />
                 </div>
             </div>
-            <div
+            <div 
                 className={styles.iluminacao}
                 style={{
                     backgroundColor: colorProject

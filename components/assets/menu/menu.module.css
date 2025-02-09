@@ -28,8 +28,7 @@
         position: absolute;
         right: 0;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;        
         height: 80px;
         width: 100vw;
         background-color: rgba(0, 0, 0, 0.4);
@@ -52,7 +51,7 @@
     .hamburger {
         border: none;
         background: none;
-        border-top: 4px solid #fff;
+        border-top: 3px solid #fff;
         cursor: pointer;
     }
 
@@ -60,9 +59,9 @@
     .hamburger::after {
         content: '';
         display: block;
-        width: 40px;
-        height: 4px;
+        width: 30px;
+        height: 3px;
         background: #fff;
-        margin-top: 8px;
+        margin-top: 3px;
     }
 }

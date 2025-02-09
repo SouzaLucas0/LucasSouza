@@ -9,13 +9,13 @@ export default function SectionContact (props) {
 
     return (
         <section id='contact' className={styles.contact}>
-            <h4 className={styles.contact__title}
+            <h4 data-aos="fade-up" className={styles.contact__title}
                 style={{color: colorProject,
                         textShadow: colorShadow
                 }}
             >Entre em contato comigo!
             </h4>
-            <h5 className={styles.contact__subTitle}
+            <h5 data-aos="fade-up" className={styles.contact__subTitle}
                 style={{color: colorProject,
                     textShadow: colorShadow
                 }}
@@ -24,7 +24,7 @@ export default function SectionContact (props) {
                 <Form color={colorProject}/>
                 <div className={styles.contact__socials}>
                     <SocialsCard colorful/>
-                    <p className={styles.contact__text}
+                    <p data-aos="fade-up" className={styles.contact__text}
                         style={{color: colorProject,
                             textShadow: colorShadow
                         }}

@@ -28,7 +28,7 @@ export default function SectionProjects (props) {
             <div className={styles.projects__bgModifier}
                 style={{backgroundColor: colorProject}}
             >
-                <h4 className={styles.projectList__title}>
+                <h4 data-aos="fade-up" className={styles.projectList__title}>
                     Projetos recentes
                 </h4>
                 <div className={styles.projects__list}>

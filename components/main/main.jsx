@@ -4,10 +4,15 @@ import SectionHome from '../assets/sections/home/sectionHome'
 import SectionProjects from '../assets/sections/projects/projectsSection'
 import styles from './main.module.css'
 import SectionContact from '../assets/sections/contact/contactSection'
-import SocialsCard from '../assets/cards/socials/socialsCard'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 export default function Main() {
 const [decorationColor, setDecorationColor] = useState('#00d9ff')
+useEffect(() => {
+    Aos.init({offset: 120, once: true})
+  },[])
 
 
 /*cor original #34D6F2*/
